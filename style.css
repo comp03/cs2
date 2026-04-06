@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcc00; /* Жовтий */
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #444;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #ffcc00;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.team-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border: 3px solid #ffcc00;
+    border-radius: 10px;
+}
+
+/* Форма та список */
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ffcc00;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #222;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #ffcc00;
+}
+
+.locked-msg {
+    color: #ff4444;
+    text-align: center;
+    font-weight: bold;
+}
